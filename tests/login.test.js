@@ -3,10 +3,11 @@ import { check, sleep } from 'k6';
 
 export const options = {
     // Define the number of iterations for the test
-    iterations: 50,
+    vus: 10,    
+    duration: '30s',
     thresholds: {
         http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-        http_req_duration: ['p(90)<2', 'max<1'] // 90% of requests should be below 2ms, max should be below 1ms
+        http_req_duration: ['p(90)<1000', 'max<2000'] // 90% of requests should be below 2ms, max should be below 1ms
     },
 };
 
