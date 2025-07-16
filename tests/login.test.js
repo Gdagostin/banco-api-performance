@@ -18,10 +18,8 @@ export const options = {
         http_req_duration: ['p(90)<1000', 'max<2000'] // 90% of requests should be below 2ms, max should be below 1ms
     }
 };
+export default function () {
 
-
-
-    export default function() {
         // Define the URL for the login endpoint
         const url = 'http://localhost:3000/login';
 
