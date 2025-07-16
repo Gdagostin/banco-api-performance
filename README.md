@@ -1,6 +1,6 @@
 # 🚀 Banco API Performance
 
-Projeto de testes de performance para API bancária desenvolvido durante o curso **Mentoria em Teste de Software 2.0** do [Julio de Lima](https://github.com/juliolima).
+Projeto de testes de performance para API bancária desenvolvido durante o curso **Mentoria em Teste de Software 2.0** do [Julio de Lima](https://github.com/juliodelimas).
 
 Este repositório contém uma suíte completa de testes de performance utilizando k6 para validar endpoints de uma API bancária, incluindo funcionalidades de autenticação e transferências.
 
